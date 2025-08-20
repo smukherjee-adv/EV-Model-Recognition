@@ -1,0 +1,58 @@
+############################################################
+# EV Model Recognition - Requirements
+# This file lists all dependencies needed for:
+# - Data collection (image scraping)
+# - Data preprocessing & augmentation
+# - YOLOv8 model training & evaluation
+# - Deployment on Jetson Orin Nano
+############################################################
+
+# ------------------------------
+# Core Deep Learning Framework
+# ------------------------------
+# NOTE: On Jetson devices, DO NOT install these from PyPI.
+# Instead, download the Jetson-specific wheel files from:
+# https://pypi.jetson-ai-lab.io/jp6/cu126
+torch==2.8.0
+torchvision==0.23.0
+torchaudio==2.8.0
+
+# ------------------------------
+# YOLOv8 for Object Detection
+# ------------------------------
+ultralytics==8.3.0
+
+# ------------------------------
+# Data Handling & Processing
+# ------------------------------
+pandas           # Dataframes, Excel/CSV handling
+numpy            # Numerical operations
+openpyxl         # Excel file support (required by pandas)
+
+# ------------------------------
+# Image Processing
+# ------------------------------
+opencv-python    # Image/video reading & processing
+Pillow           # Image manipulation
+
+# ------------------------------
+# Visualization
+# ------------------------------
+matplotlib       # Plotting results & detections
+
+# ------------------------------
+# Data Collection (Image Scraping)
+# ------------------------------
+icrawler         # Automatically download images from Google
+
+# ------------------------------
+# Jupyter Support (for notebooks)
+# ------------------------------
+jupyter
+notebook
+ipykernel        # Allows using custom kernels in Jupyter
+
+# ------------------------------
+# Utilities
+# ------------------------------
+tqdm             # Progress bars
