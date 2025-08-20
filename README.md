@@ -7,7 +7,7 @@ Electric Vehicle Detection and Recognition using YOLO, with scripts for image co
 ```plaintext
 EV-Recognition/
 │
-├── cars.excel              # Conatins information of the electric vehicles brand and model
+├── cars_new.xlsx            # Conatins information of the electric vehicles brand and model
 │
 ├── scripts/                
 │   ├── dataset_generation.py   # Collection of images
