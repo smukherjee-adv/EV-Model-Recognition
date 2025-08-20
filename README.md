@@ -22,6 +22,6 @@ EV-Recognition/
 │
 |              
 │      
-├── Yolo_model_deployment_in_jetson_orin.docs  # Deployemnt instruction
+├── Yolo_model_deployment_in_jetson_orin.docx  # Deployemnt instruction
 ├── requirements.txt        # Required Python packages
 └── README.md               # Project overview and instructions
