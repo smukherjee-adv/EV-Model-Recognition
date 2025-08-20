@@ -14,7 +14,7 @@ EV-Recognition/
 │   └── test/               # Test images
 │
 ├── scripts/                
-│   ├── collect_images.py   # Collection of images
+│   ├── dataset_generation.py   # Collection of images
 │   ├── augment_images.py   # Augment dataset
 │   ├── train_yolo.py       # Train YOLOv8 model
 │   ├── evaluate_yolo.py    # Evaluate trained model
