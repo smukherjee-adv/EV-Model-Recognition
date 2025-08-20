@@ -20,8 +20,8 @@ EV-Recognition/
 │   ├── evaluate_yolo.py    # Evaluate trained model
 │   └── inference_yolo.py   # Run predictions on new images
 │
-├── docs/                   
-│   └── deployment.md       # Deployment instructions
-│
+|              
+│      
+├── Yolo_model_deployment_in_jetson_orin.docs  # Deployemnt instruction
 ├── requirements.txt        # Required Python packages
 └── README.md               # Project overview and instructions
